@@ -11,3 +11,16 @@ body {
     sans-serif;
 }
 
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10rem;
+  width: 80vw;
+  margin-left: 10vw;
+  margin-bottom: 3rem;
+}
+
+button {
+  color: #FFF;
+  background-color: blue;
+}
